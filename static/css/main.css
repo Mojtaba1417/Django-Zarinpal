@@ -1,0 +1,43 @@
+.main_page{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.order_card{
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1c7430;
+    background-color: rgb(0, 112, 116);
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.order_card>a{
+    width: 190px;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(253, 99, 6, 0.69);
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 300ms linear;
+}
+.order_card>a:hover{
+    background-color: #ff4d00;
+}
